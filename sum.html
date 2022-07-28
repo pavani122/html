@@ -1,0 +1,22 @@
+<!DOCTYPE html><html>
+    <body>
+        <script> 
+        var first=prompt("Enter first number:");
+        var second=prompt("Enter second number:");
+        var third=prompt("Enter third number:");
+         
+        function sum()
+        {
+          let x=parseInt(first);
+          let y=parseInt(second);
+          let z=parseInt(third);
+
+            var s=x+y+z;
+            document.getElementById("value").innerHTML=s;
+        }
+    
+    </script>
+    <p id="value"></p>
+    <button type="button" onClick="sum()">sum</button>
+    </body>
+</html>

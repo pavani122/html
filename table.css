@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+    justify-content:center;
+    margin-top: 12%;
+    margin-left: 15%;
+}
+table{
+    background-color:cornsilk;
+    align-items: center;
+    border-style: double;
+    border: 5px solid black;
+    font-family: Arial;
+    font-weight: 100;
+    
+}
+#row1
+{
+    font-size: 24px;
+    color: red;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+   
+}
+#row2
+{
+    color: rgb(207, 138, 151);
+}
+#row3
+{
+    color:blueviolet
+}
+#row4
+{
+    color: palevioletred;
+}
+#row5
+{
+    color: black;
+}
+#row6
+{
+    color: coral;
+}
+td
+{
+    font-style: italic;
+    font-size:18px ;
+}
+#lunch
+{
+    color: darkblue;
+    background-color: aliceblue;
+}

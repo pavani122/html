@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>home page</title>
+    <script>
+        function loadfun()
+        {
+            var httpObj=new XMLHttpRequest();
+            httpObj.open("GET","about.html");
+            httpObj.onreadystatechange=function()
+            {
+              if(this.readyState==4 && this.readyState==200)
+              {
+                console.log("this.responseText");
+                document.getElementById("3").innerHTML="this.responseText";
+              }
+            };
+            httpObj.send();
+        }
+    </script>
+    </head>
+    <body>
+        <h1>This is home page</h1>
+        <button type="button" onclick="loadfun()">AboutPage</button>
+        <div id="3"></div>
+
+    </body>
+</html>
